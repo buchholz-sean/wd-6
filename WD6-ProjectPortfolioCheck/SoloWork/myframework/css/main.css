@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #262526;
+}
+
+body {
+    background: #E1E1DD;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+
+.site-content {
+    flex: 1;
+}
+
+.nav-list {
+    list-style: none;
+    float: left;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: #444349;
+}
+
+a:hover {
+    color: #A64521;
+}
